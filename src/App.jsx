@@ -15,7 +15,7 @@ function App() {
   const [darklight,setdarklight]=useState(false)
   return (
     <>
-   <BrowserRouter>
+   <BrowserRouter basename="/quizzes">
   <Routes>
      <Route path="/" element={
        <>
