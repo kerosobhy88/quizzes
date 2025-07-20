@@ -1,0 +1,230 @@
+@import "tailwindcss";
+
+/* Reset browser default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.buttonred{
+border: none !important;
+width: 500px;
+margin: 0 0 0 40px !important;
+}
+.buttongreen{
+  border: none !important;
+  width: 500px;
+  margin: 0 0 0 40px !important;
+}
+
+
+.buttongreen:active{
+  background-color:rgba(0, 128, 0, 0.733);
+  border: none !important;
+}
+.buttonred:active{
+background-color: rgba(255, 22, 22, 0.521) !important;
+ border: none !important;
+}
+.divcontrol{
+  background-color: aqua;
+  margin:30px auto !important;
+  padding: 30px;
+  width:650px;
+  border-radius: 20px;
+      box-shadow: 0px 1px 20px -1px rgb(255, 255, 255);
+  text-align: center;
+}
+.divcontrol2{
+  background-color: rgb(0, 0, 0);
+  margin:30px auto !important;
+  color: white;
+  padding: 30px;
+  width:650px;
+  border-radius: 20px;
+      box-shadow: 0px 1px 20px -1px rgb(255, 255, 255);
+  text-align: center;
+}
+.result2{
+  background-color: red;
+}
+.result{
+  background-color: green;
+}
+.showresult{
+  background-color: deepskyblue;
+  width: 600px;
+  border-radius: 50px;
+  padding: 30px;
+  margin: 90px auto;
+  font-weight: 900;
+    box-shadow: 0px 1px 20px -1px black;
+  animation-name: showresult;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes showresult{
+  from{
+  transform: scale(1.0);
+  }
+  to{
+transform: scale(1.1);
+  }
+}
+.nice{
+  color: green;
+}
+.nonice{
+  color: red;
+}
+.nice,.nonice{
+  font-size: 20px;
+  font-weight: 900;
+}
+.span1{
+  font-weight: 900;
+  padding: 20px;
+}
+.titlejavascript{
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0 0 20px 140px !important;
+  background-color: darkviolet;
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  border-radius: 20px;
+}
+.time{
+  background-color:dimgrey;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+   margin: 20px 0 0px 220px !important;
+  text-align: center;
+  width: 160px;
+ padding: 15px 0;
+  border-radius: 20px;
+}
+.links{
+  margin:80px auto ;
+
+}
+.link,.linkk{
+  background-color: rgba(0, 0, 139, 0.781);
+  width: 200px;
+  height: 500;
+  padding: 20px 00px;
+  border-radius: 30px;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  text-align: center;
+      box-shadow: 0px 1px 20px -1px rgb(255, 255, 255);
+    transition: 0.3s;
+    margin: 20px;
+}
+.link{
+         /* animation-name: links; */
+   animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+    animation-play-state: paused;
+
+}
+.link:hover{
+  color: #000000;
+  animation-play-state: paused;
+}
+.link:nth-child(1) {
+  animation-delay: 0s;
+}
+.link:nth-child(2) {
+  animation-delay: 1s;
+}
+.link:nth-child(3) {
+  animation-delay: 2s;
+}
+.link:nth-child(4) {
+  animation-delay: 3s;
+}
+/* زود على حسب عدد العناصر */
+
+@keyframes links{
+  from{
+    transform:translate(0px,0px);
+  }
+  to{
+    transform:translate(0px,70px);
+  }
+ 
+
+}
+.titele1{
+ background-color: white;
+  color: rgb(0, 0, 0);
+  height: 60px;
+  width: 610px;
+  box-shadow: 0px 1px 20px -1px rgb(0, 0, 0);
+  margin: 20px auto;
+  border-radius: 30px;
+  padding:0px;
+  text-align: center;
+  font-weight: 900;
+}
+.marquee-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000; /* لون الخلفية */
+  padding: 10px 0;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.marquee-text {
+  display: inline-block;
+  white-space: nowrap;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.html{
+  background-color:rgba(0, 0, 0, 0.678);
+}
+.light{
+  background-color: white;
+  color: black;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.dark{
+  background-color: black;
+  color: white;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.button15{
+  background-color:rgba(0, 0, 0, 0.438);
+      box-shadow: 0px 1px 20px -1px rgb(255, 255, 255);
+}
+.button16{
+background-color: white;
+}
