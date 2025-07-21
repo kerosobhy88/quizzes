@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss, faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import { faCode, faTerminal } from "@fortawesome/free-solid-svg-icons";
+import './App.css'
+
 
 
 function Home(){
