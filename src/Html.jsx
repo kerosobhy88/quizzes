@@ -2,7 +2,7 @@ import { faHtml5, faJs } from "@fortawesome/free-brands-svg-icons";
 import { faArrowRightFromBracket, faClipboardQuestion, faRepeat, faRightFromBracket, faStopwatch, faTicket, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, useEffect } from "react";
-import { Link, Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Darklight from "../public/cobonands/Darklight";
 
 const questions = [
