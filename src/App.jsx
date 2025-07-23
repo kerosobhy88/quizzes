@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Router, HashRouter } from 'react-router-dom';
 import Timer from './Timer'
 import Home from './Home'
 import Html from './Html';
@@ -12,7 +12,7 @@ function App() {
   const [darklight,setdarklight]=useState(false)
   return (
     <>
-   <BrowserRouter basename="/quizzes">
+   <HashRouter>
   <Routes>
      <Route path="/" element={
        <>
@@ -29,7 +29,7 @@ function App() {
 
 
   </Routes>
-  </BrowserRouter>
+  </HashRouter>
     </>
   )
 }
