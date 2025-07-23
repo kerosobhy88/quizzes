@@ -12,7 +12,6 @@ function App() {
   const [darklight,setdarklight]=useState(false)
   return (
     <>
-   <HashRouter>
   <Routes>
      <Route path="/" element={
        <>
@@ -29,7 +28,6 @@ function App() {
 
 
   </Routes>
-  </HashRouter>
     </>
   )
 }
