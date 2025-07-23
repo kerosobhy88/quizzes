@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/quizzes/",
+  base: `/quizzes/`,
   plugins: [react(), tailwindcss()],
 })

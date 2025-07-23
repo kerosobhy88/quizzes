@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@tailwind utilities;
-
 /* Reset browser default spacing */
 * {
   margin: 0;
