@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route, Router, HashRouter } from 'react-router-dom';
+import {Routes, Route,HashRouter } from 'react-router-dom';
 import Timer from './Timer'
 import Home from './Home'
 import Html from './Html';
